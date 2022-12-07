@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list_display{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.each_item{
+    width: 200px;
+    box-shadow: 2px 5px 2px 5px #88888859;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.title_design{
+    font-weight: bold;
+    color: red;
+}
+.each_description{
+    box-shadow: 2px 2px 2px 2px #88888859;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
